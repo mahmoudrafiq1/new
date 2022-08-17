@@ -106,13 +106,6 @@ section {
     font-weight: 800;
 }
 
-.title2 {
-    color: #ffffff;
-    font-size: 4em;
-    font-weight: 800;
-    padding-right: 500em;
-}
-
 .content {
     display: flex;
     justify-content: center;
@@ -372,25 +365,190 @@ section {
 }
 
 @media (max-width: 400px)
+{
+    .main {
+        background-size: cover;
+        min-width: 700px;
+        min-height: 1600px;
+    }
 
+    .projects .title {
+        min-width: 600px;
+        padding-right: 100px;
+        background-size: cover;
+    }
+    
     .projects-services {
+        min-height: 1600px;
+        background-size: cover;
+        min-width: 700px;
+    }
+    
+
+    .projects-services .title {
+        align-items: center;
+    }
+
+    .projects-services h2 {
+        padding-bottom: 500px;
+    }
+
+    .cards .content {
+        background-size: cover;
+        min-width: 700px;
+    }
+
+    .cards .title {
+        align-items: center;
+        justify-content: center;
+    }
+    header {
+        padding: 6px 30px;
+        align-items: center;
+        display: fixed;
+    }
+
+    .projects {
+        align-content: center;
+        min-width: 700px;
+        justify-content: center;
+        min-height: 1500px;
+    }
+    
+    .cards-contact {
+        min-width: 700px;
+    }
+
+    .navigation a{
+        padding-left: 20px;
+        align-items: center;
+        font-size: 1em;
+    }
+    
+    .title {
+        font-size: 1.5em;
+        align-items: center;
+    }
+
+    .section {
+        padding: 40px 10px;
         align-items: center;
     }
 
     .main-content h2{
-        font-size: 0.8em;
+        font-size: 0.5em;
         align-items: center;
     }
 
-    .main-content h3{
-        font-size: 1.4em;
-        align-items: center;
+    .cards .content {
+        min-width: 10px;
     }
 
-
-@media (max-width: 300px){
-    body{
-        font-size: 10px;
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 200px;
+    }
+    
+    .footer {
+        min-width: 700px;
+        padding-top: 10px;
+        justify-content: space-between;
         align-items: center;
     }
 }
+@media (max-width: 300px){
+    {
+        .main {
+            background-size: cover;
+            min-width: 700px;
+            min-height: 1600px;
+        }
+    
+        .projects .title {
+            min-width: 600px;
+            padding-right: 100px;
+            background-size: cover;
+        }
+        
+        .projects-services {
+            min-height: 1600px;
+            background-size: cover;
+            min-width: 700px;
+        }
+        
+    
+        .projects-services .title {
+            align-items: center;
+        }
+    
+        .projects-services h2 {
+            padding-bottom: 500px;
+        }
+    
+        .cards .content {
+            background-size: cover;
+            min-width: 700px;
+        }
+    
+        .cards .title {
+            align-items: center;
+            justify-content: center;
+        }
+        header {
+            padding: 6px 30px;
+            align-items: center;
+            display: fixed;
+        }
+    
+        .projects {
+            align-content: center;
+            min-width: 700px;
+            justify-content: center;
+            min-height: 1500px;
+        }
+        
+        .cards-contact {
+            min-width: 700px;
+        }
+    
+        .navigation a{
+            padding-left: 20px;
+            align-items: center;
+            font-size: 1em;
+        }
+        
+        .title {
+            font-size: 1.5em;
+            align-items: center;
+        }
+    
+        .section {
+            padding: 40px 10px;
+            align-items: center;
+        }
+    
+        .main-content h2{
+            font-size: 0.5em;
+            align-items: center;
+        }
+    
+        .cards .content {
+            min-width: 10px;
+        }
+    
+        .content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-width: 200px;
+        }
+        
+        .footer {
+            min-width: 700px;
+            padding-top: 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
